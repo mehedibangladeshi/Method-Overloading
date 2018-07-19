@@ -8,18 +8,22 @@ public class OverloadingMethods {
 
     //    overloading methods
 
-
-    //    method with same name but different (float) type of parameters
-
-
     //    method with same name but different (int) type of parameters
     public void addition(int num1, int num2){
         System.out.println("addition:2 int values "+num1+num2);
     }
+
     //    method with same name but different (int) type of parameters and different numbers of parameters
     public void addition(int num1, int num2, int num3){
         System.out.println("addition:3 int values "+num1+num2+num3);
     }
+
+//    method with same name but different (int) type of parameters and different numbers of parameters
+    public void addition(int num1, int num2, int num3, int num4){
+        System.out.println("addition:4 int values "+num1+num2+num3+num4);
+    }
+
+
 
 
     //    method with same name but different (float) type of parameters
@@ -30,6 +34,14 @@ public class OverloadingMethods {
     public void addition(float num1, float num2, float num3){
         System.out.println("addition:3 float values "+num1+num2+num3);
     }
+//    method with same name but different (float) type of parameters and different numbers of parameters
+    public void addition(float num1, float num2, float num3, float num4){
+        System.out.println("addition:4 float values "+num1+num2+num3+num4);
+    }
+
+
+
+
 
     //    method with same name but different (double) type of parameters
     public void addition(double num1, double num2){
@@ -38,6 +50,10 @@ public class OverloadingMethods {
     //    method with same name but different (double) type of parameters and different numbers of parameters
     public void addition(double num1, double num2, double num3){
         System.out.println("addition:3 double values "+num1+num2+num3);
+    }
+//    method with same name but different (double) type of parameters and different numbers of parameters
+    public void addition(double num1, double num2, double num3, double num4){
+        System.out.println("addition:3 double values "+num1+num2+num3+num4);
     }
 
 }
